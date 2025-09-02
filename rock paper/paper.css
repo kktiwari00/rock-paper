@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #A3DC9A
+}
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rst{
+    height: 4vmin;
+    width: 12vmin;
+    margin-left: 200px;
+    font-size: 1rem;
+    border: 2px solid #081b31;
+    background-color: red;
+    color:white;
+    border-radius: 11px;
+    
+}
+.rst:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color:red;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 80px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    margin-top: 3rem; 
+}
+
+#user-score, 
+#com-score{
+    font-size: 5rem;
+    margin-right: 6rem;
+}
+#msg{
+    border-radius: 2rem;
+    display: inline;
+}
+.k{
+    display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+gap: 10rem;
+font-size: 2rem;
+}
